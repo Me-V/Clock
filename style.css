@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  background: #ffc4d0;
+}
+.clockContainer{
+  position: relative;
+
+  margin: auto;
+  margin-top: 20vh;
+  margin-left: 6.8vw;
+  height: 60vh;
+  width: 90vw ;
+  background-size: 100%;
+  background: url('clock.png') no-repeat;
+}
+
+#hour,#min,#sec{
+  position:absolute;
+  background: black;
+  transform-origin: bottom;
+}
+
+#hour{
+  height:10vh;
+  width: 0.9vw;
+  top: 19.5%;
+  left:46.59%;
+  
+}
+
+#min{
+    height:13vh;
+    width: 0.7vw;
+    top: 14.4%;
+    left:46.8%;
+    
+}
+
+#sec{
+    height:15.9vh;
+    width:0.3vw;
+    top: 9.7%;
+    left:46.9%;
+
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text span {
+  font-size: 200px;
+  font-family: 'Josefin Sans', sans-serif;
+}
